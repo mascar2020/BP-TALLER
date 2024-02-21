@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profesores - Universidad CUC</title>
+    <title>Universidad CUC</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -27,22 +27,13 @@
 
         section {
             padding: 20px;
-            text-align: center;
+            text-align: justify;
         }
 
-        h2 {
-            font-size: 1.5em;
-            margin-bottom: 20px;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 10px;
+        p {
             font-size: 1.2em;
+            line-height: 1.4;
+            margin-bottom: 15px;
         }
 
         footer {
@@ -54,31 +45,48 @@
             bottom: 0;
             width: 100%;
         }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        button {
+            
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+        body,header{
+    background-color: #92BEC4;
+}
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Profesores - Universidad CUC</h1>
+        <h1>Bienvenido a la Universidad CUC</h1>
     </header>
 
     <section>
-        <h2>Lista de Profesores</h2>
-        <ul>
-            <li>Dr. Juan Pérez</li>
-            <li>Dra. María González</li>
-            <li>Prof. Carlos Rodríguez</li>
-            <li>Prof. Ana Martínez</li>
-        </ul>
+        <p>La Universidad CUC es un centro de educación superior comprometido con la excelencia académica, la investigación innovadora y el desarrollo integral de sus estudiantes.</p>
+        <p>Nuestro campus cuenta con instalaciones modernas, un cuerpo docente altamente calificado y una amplia variedad de programas académicos para satisfacer las necesidades de nuestros estudiantes.</p>
+        <p>En la Universidad CUC, nos esforzamos por crear un ambiente de aprendizaje inclusivo y motivador que prepare a nuestros estudiantes para enfrentar los desafíos del mundo real y contribuir positivamente a la sociedad.</p>
     </section>
 
     <footer>
-        <p>&copy; 2024 Universidad CUC</p>
+        <p>&copy; 2024 Universidad XYZ</p>
     </footer>
     <div class="container">
         <button> <a href="index.html">Regresar  </a> </button>
     </div>
-
-
 </body>
 </html>

@@ -24,15 +24,37 @@ header h1 {
     font-size: 2em;
 }
 
+/* Estilos de las listas en el header */
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+header li {
+    margin: 0 15px;
+}
+
+header a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+header a:hover {
+    color: #3498db;
+}
+
 /* Estilos del formulario de ingreso */
 section form {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
-li {
-    display: inline;
-}
+
 section input {
     padding: 10px;
     font-size: 1em;
@@ -79,3 +101,8 @@ section p {
 section button:not(:last-child) {
     margin-right: 10px;
 }
+
+body, header {
+    background-color: #92BEC4;
+}
+
