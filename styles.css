@@ -30,7 +30,9 @@ section form {
     justify-content: center;
     margin-top: 20px;
 }
-
+li {
+    display: inline;
+}
 section input {
     padding: 10px;
     font-size: 1em;
