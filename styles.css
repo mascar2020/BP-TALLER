@@ -82,5 +82,5 @@ section button:not(:last-child) {
     margin-right: 10px;
 }
 body,header{
-    background-color: black;
+    background-color: white;
 }
